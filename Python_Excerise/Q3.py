@@ -15,8 +15,8 @@ container to remove duplicated data automatically and then use sorted() to sort 
 
 u_input = raw_input("Please enter sentence of whitespaces seperated words:")
 
-words = u_input.split(',')
+words = u_input.split(' ')
 
 del_duplicate = sorted(list(set(words)))
 
-print ",".join(del_duplicate)
+print " ".join(del_duplicate)
